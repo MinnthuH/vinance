@@ -1,0 +1,72 @@
+{
+    "spot": {
+        "name": "spot",
+        "title": "Spot Wallets",
+        "type_value": 1,
+        "description": "Users store assets available for immediate trading, configured below for various trading or transaction activities.",
+        "configuration": {
+            "deposit": {
+                "name": "deposit",
+                "title": "Deposit Fund",
+                "status": 1,
+                "description": "If you enable this module, users will deposit funds to this type of wallet."
+            },
+            "withdraw": {
+                "name": "withdraw",
+                "title": "Withdraw Fund",
+                "status": 1,
+                "description": "If you enable this module, users can withdraw their funds from this type of wallet."
+            },
+            "transfer_other_user": {
+                "name": "transfer_other_user",
+                "title": "Transfer Fund To Other Users",
+                "status": 1,
+                "description": "If you enable this module, users transfer funds from this type of wallet to other users on the platform."
+            },
+            "transfer_other_wallet": {
+                "name": "transfer_other_wallet",
+                "title": "Transfer Fund To Other Wallet",
+                "status": 1,
+                "description": "If you enable this module, users transfer funds from this type of wallet to other wallet on the platform."
+            }
+        },
+        "for_fait": 0,
+        "for_crypto": 1,
+        "for_fiat": 1
+    },
+    "funding": {
+        "name": "funding",
+        "title": "Funding Wallets",
+        "type_value": 2,
+        "description": " Reserves for deposits and funding activities, configured below for various transaction activities.",
+        "configuration": {
+            "deposit": {
+                "name": "deposit",
+                "title": "Deposit Fund",
+                "status": 1,
+                "description": "If you enable this module, users will deposit funds to this type of wallet."
+            },
+            "withdraw": {
+                "name": "withdraw",
+                "title": "Withdraw Fund",
+                "status": 1,
+                "description": "If you enable this module, users can withdraw their funds from this type of wallet."
+            },
+            "transfer_other_user": {
+                "name": "transfer_other_user",
+                "title": "Transfer Fund To Other Users",
+                "status": 1,
+                "description": "If you enable this module, users transfer funds from this type of wallet to other users on the platform."
+            },
+            "transfer_other_wallet": {
+                "name": "transfer_other_wallet",
+                "title": "Transfer Fund To Other Wallet",
+                "status": 1,
+                "description": "If you enable this module, users transfer funds from this type of wallet to other wallet on the platform."
+            }
+        },
+        "for_fait": 0,
+        "for_crypto": 1,
+        "for_fiat": 1
+    }
+}
